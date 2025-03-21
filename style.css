@@ -1,0 +1,45 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 100px;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px
+}
+
+.mainBox{
+    display:flex;
+    flex-direction: column; /* Stack items (buttons) vertically */
+    align-items: center; /* Center buttons horizontally */
+    padding-top: 170px;
+    padding-top: 170px;
+    gap: 10px;
+}
+body{
+    background: url(image.jpg);
+    background-size: cover;
+    
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: antiquewhite;
+    display: block;
+}
+#btn{
+    background-color: #8767ab; /* Green */
+    
+}
+#btn:hover{
+    background-color: #218838;
+    color: white;
+}
+#restart:hover {
+    background-color: #d51717;
+    color: white;
+}
